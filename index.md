@@ -5,7 +5,9 @@
 NPM stands for "Node Package Manager". At its core, it is a library for JS software packages with command line tools to help as you are developing. This is an extremely important tool as it allows you to install packages and manage their dependencies all from the ease of a command line. Due to it being open-sourced, it is also a great place for developers to create and share software packages. 
 
 ### 2. What problems does NPM Solve?
-NPM solves the problem of having you or others work on a project with dependencies later down the line, as it is an easy npm install command to get up to speed. On top of this, it easily manages all of the libraries you have rather than having to download them by hand and move them into the correct directories and THEN make sure that the version of the project and all of the now installed dependencies are up to date and on the same page. 
+NPM solves the problem of having you or others work on a project with dependencies later down the line, as it is an easy npm install command to get up to speed. On top of this, it easily manages all of the libraries you have rather than having to download them by hand and move them into the correct directories and THEN make sure that the version of the project and all of the now installed dependencies are up to date and on the same page. <br>
+![Screenshot 2023-01-20 094346](https://user-images.githubusercontent.com/89815410/213755124-50096699-32af-4fab-a401-442b6d02c0be.png)
+#### In the above image, with one simple command we are able to install everything necessary to use Lodash, rather than having to manually install and move files around.
 
 ### 3. Describe the 3 main parts of NPM.
 *The Website* - using npmjs.com you are able to set up a profile and organizations as well as look for packages. <br/>
@@ -13,7 +15,9 @@ NPM solves the problem of having you or others work on a project with dependenci
 *The Registry* - This is a large database, that is public as NPM is an open-source project,  where you can see all of the different JS software and the meta-information with it.
 
 ### 4. What is the package.json file?
-This is the heart and soul of any project as it is a file that contains the metadata about the project in regards to NPM. When sharing a project or getting started on one again, anything in this file will get you back up to speed as it has attributes that npm will use to install the necessary dependencies and run any scripts you may have. 
+This is the heart and soul of any project as it is a file that contains the metadata about the project in regards to NPM. When sharing a project or getting started on one again, anything in this file will get you back up to speed as it has attributes that npm will use to install the necessary dependencies and run any scripts you may have. <br>
+![Screenshot 2023-01-20 094241](https://user-images.githubusercontent.com/89815410/213755333-15865890-2489-4e13-8ac8-741fcb44f0a8.png)
+
 
 ### 5. What is the scripts section of the package.json file? How do you use it? What are the default commands, and how do you use your own?
 A script here is simply an easy way to bundle common and annoying commands or tasks that may have to be run multiple times. To use a script, you need to define it in the package.json file along with the command you want to run when you call the script. To run said script, you need to use the command `npm run <NAME_OF_SCRIPT>`. 
@@ -22,6 +26,9 @@ Scripts can either be installed or created on your own by the following: <br/>
 "scripts": {<br/>
   "name_of_script_here": "command_to_be_run" <br/>
   } 
+<br>
+
+![Screenshot 2023-01-20 094445](https://user-images.githubusercontent.com/89815410/213755363-b8ad19ab-d19c-428b-890f-62bf8c477929.png)
 
 
 ### 6. What are dependencies? What does this section define? What are dev dependencies? Why is it important to define dev dependencies vs dependencies?
